@@ -1,0 +1,138 @@
+
+
+body, html {
+    height: 100%;
+}
+.carousel-item{
+
+    height: 100%;
+}
+.imgIndex{
+    width: 100%;
+    height: 650px;
+    max-height: 680px;
+}
+#layoutImg1{
+    background-color: rgba(0, 204, 204, 0.32);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#layoutImg2{
+    background-color: rgba(0,0,0, 0.83);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#layoutImg3{
+   background-color: rgba(242,242,242, 0.67);
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../img/indexImg1.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.caption{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    letter-spacing: -0.05em;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 124px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px #4d4d4d;
+}
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/indexImg2.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url("../img/indexImg3.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 89px;
+}
+.center-col{
+    display: block;
+    margin: 0 auto;
+}
+.premium-frame{
+    position: absolute;
+    top: 55%; 
+    left: 13%; 
+    height: 237px;
+    width: 100%; 
+    color: white; 
+    line-height: 40px
+
+}
+.premium-frame img:hover {
+   transform: scale(1.5);
+   transition: transform 1.5s ;
+}
+.premium-text{
+    text-align: center;;
+    text-shadow: 1px 1px #4d4d4d;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.03em;
+}
+nav ul>li{
+    font-size: 20px!important;
+}
+.navbar{
+    height:8%;
+    opacity: 0.8;
+    transition: height 1s ;
+    padding-left: 36%;
+}
+.navbar:hover{
+    height: 10%;
+    opacity: 0.9;
+    transition: height 1s ;
+
+}
+
+.navbar-brand{
+    letter-spacing: -1px;
+}
